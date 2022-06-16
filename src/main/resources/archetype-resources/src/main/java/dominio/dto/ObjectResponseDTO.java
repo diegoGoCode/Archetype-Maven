@@ -7,6 +7,6 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class TestDto {
-    private String message;
+public class ObjectResponseDTO {
+    private String err;
 }

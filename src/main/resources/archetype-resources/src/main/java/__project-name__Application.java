@@ -1,10 +1,11 @@
 package ${package};
+
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.SpringApplication;
 
 @SpringBootApplication
-public class DemoApplication {
+public class ${project-name}Application {
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(${project-name}Application.class, args);
     }
 }

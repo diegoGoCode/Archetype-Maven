@@ -2,7 +2,11 @@
 <archetype-descriptor name="basic">
 
     <requiredProperties>
-        <requiredProperty key="library-name">
+        <requiredProperty key="project-name">
+        </requiredProperty>
+        <requiredProperty key="name-component">
+        </requiredProperty>
+        <requiredProperty key="id-service">
         </requiredProperty>
         <requiredProperty key="resource-name">
             <defaultValue>Resource-default</defaultValue>
@@ -36,6 +40,23 @@
         <fileSet filtered="true" packaged="true">
             <directory>src/test/java</directory>
         </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>**/*.properties</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory></directory>
+            <includes>
+                <include>.gitignore</include>
+            </includes>
+        </fileSet>
+        <fileSet filtered="true" encoding="UTF-8">
+            <directory></directory>
+            <includes>
+                <include>.gitignore</include>
+            </includes>
+        </fileSet>
     </fileSets>
-
 </archetype-descriptor>
